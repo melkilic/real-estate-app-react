@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color: #242c2c;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,6 +18,10 @@ header li {
     margin: 20px;
 }
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+header li a:hover{
+    color:#449187
 }
