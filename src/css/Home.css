@@ -3,7 +3,7 @@ header img {
     margin-left: 40px;
 }
 
-body {
+.hero-container {
     height: 125vh;
     background-image: url('https://images.pexels.com/photos/966397/pexels-photo-966397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;

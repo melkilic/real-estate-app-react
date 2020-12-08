@@ -5,8 +5,7 @@ import Navbar from './Navbar';
 const Home = () => {
     return (            
            
-    <div>
-        <body>
+        <div className="hero-container">
    
        <Navbar/>
 <main>
@@ -15,8 +14,8 @@ const Home = () => {
         <p>Real Estate</p>
         </div>
 </main>
-</body>
 </div>
+
                 
     
     

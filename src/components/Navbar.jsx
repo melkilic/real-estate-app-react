@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './../css/Navbar.css'
 
 const Navbar = () => {
-    return (  <header>
+    return (  
+    <div><header>
         <img src="assets/logo.png"></img><nav>
    <ul>
        <li><a href="/">Home</a></li>
@@ -13,7 +14,8 @@ const Navbar = () => {
        <li><a href="#">FAQ</a></li>
        <li><a href="#">Contact</a></li>
    </ul>
-</nav></header> );
+</nav></header>
+</div> );
 }
  
 export default Navbar;
