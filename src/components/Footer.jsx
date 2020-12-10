@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './../css/Footer.css'
+import {FaFacebookSquare, FaInstagramSquare, FaTwitter, FaLinkedin} from 'react-icons/fa'
+
 
  
 
@@ -7,7 +9,9 @@ import './../css/Footer.css'
 const Footer = () => {
     return ( <footer className="footer">
     <div className="footer__addr">
-      <h1 className="footer__logo">Something</h1>
+    <img className="footer__img"src="/assets/logo.png"/>
+      {/* <h1 className="footer__logo">Next-Door Group</h1> */}
+     
           
       <h2>Contact</h2>
       
@@ -68,19 +72,19 @@ const Footer = () => {
         
         <ul className="nav__ul">
           <li>
-            <a href="https://www.instagram.com/newgande1/">Instagram</a>
+            <a href="https://www.instagram.com/next_doorgroup"><FaInstagramSquare/>Instagram</a>
           </li>
           
           <li>
-            <a href="https://twitter.com/nextdoorgroupl1">Twitter</a>
+            <a href="https://twitter.com/nextdoorgroupl1"> <FaTwitter/>Twitter</a>
           </li>
           
           <li>
           {/* <i class="fa fa-facebook"></i> */}
-         <a href="https://www.facebook.com/nextdoorgroupllc"> <i className="fab fa-twitter">Facebook</i></a>
+         <a href="https://www.facebook.com/nextdoorgroupllc"> <FaFacebookSquare/>Facebook</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/company/next-door-group-llc/">LinkedIn</a>
+            <a href="https://www.linkedin.com/company/next-door-group-llc/"><FaLinkedin/>LinkedIn</a>
           </li>
         </ul>
       </li>
