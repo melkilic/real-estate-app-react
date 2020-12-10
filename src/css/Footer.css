@@ -28,6 +28,15 @@
     font-size: 15px;
     font-weight: 400;
   }
+  .footer__addr h3 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #999;
+  
+  }
+
   
   .nav__title {
     font-weight: 400;

@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
 import './../css/Footer.css'
-import {FaFacebookSquare, FaInstagramSquare, FaTwitter, FaLinkedin} from 'react-icons/fa'
-
+import {FaFacebookSquare, FaInstagramSquare, FaTwitter, FaLinkedin, FaMailBulk, FaPhoneAlt} from 'react-icons/fa'
+import { AiOutlineMail } from "react-icons/ai"
 
  
-
-
 const Footer = () => {
     return ( <footer className="footer">
     <div className="footer__addr">
     <img className="footer__img"src="/assets/logo.png"/>
       {/* <h1 className="footer__logo">Next-Door Group</h1> */}
-     
-          
       <h2>Contact</h2>
-      
-
+     <h3> <FaPhoneAlt/> (214) 273-0094 </h3>
+      <h3> <AiOutlineMail/> info@next-doorgroup.com</h3>
     </div>
     
     <ul className="footer__nav">
@@ -96,7 +92,7 @@ const Footer = () => {
       
     </div> */}
     <div className="legal__links">
-        <span>Made with <span className="heart">♥</span> remotely from Anywhere</span>
+        <span>Made with <span className="heart">♥</span> by Melike and Faizah </span>
       </div>
   </footer>  );
 }
